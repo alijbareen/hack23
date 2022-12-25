@@ -17,6 +17,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>test</p>
         <p>{!data ? "Loading..." : data}</p>
       </header>
     </div>
